@@ -1,12 +1,20 @@
 {
   "name": "solidity-basics",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "2.0.0",
   "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy:first": "CONTRACT_NAME=FirstContract hardhat run scripts/deploy.ts --network localhost",
+    "test": "hardhat test",
+    "clean": "hardhat clean",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "ethers": "^6.13.5",
-    "solc": "^0.8.28"
+    "ethers": "^6.13.5"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
@@ -21,13 +29,19 @@
     "@typechain/hardhat": "^9.0.0",
     "@types/chai": "^4.2.0",
     "@types/mocha": ">=9.1.0",
+    "@types/node": ">=18.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.55.0",
+    "@typescript-eslint/parser": "^8.55.0",
     "chai": "^4.2.0",
+    "eslint": "^8",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
     "hardhat": "^2.22.18",
     "hardhat-gas-reporter": "^1.0.8",
+    "prettier": "^3.8.1",
     "solidity-coverage": "^0.8.1",
     "ts-node": ">=8.0.0",
     "typechain": "^8.3.0",
     "typescript": ">=4.5.0"
-  },
-  "type": "module"
+  }
 }
