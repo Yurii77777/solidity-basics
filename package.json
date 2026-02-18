@@ -5,7 +5,9 @@
   "scripts": {
     "compile": "hardhat compile",
     "node": "hardhat node",
+    "start": "hardhat node",
     "deploy:first": "CONTRACT_NAME=FirstContract hardhat run scripts/deploy.ts --network localhost",
+    "deploy:types": "CONTRACT_NAME=TypesDemo hardhat run scripts/deploy.ts --network localhost",
     "test": "hardhat test",
     "clean": "hardhat clean",
     "lint": "eslint . --ext .ts",
