@@ -24,3 +24,11 @@ Full migration to native Hardhat: TypeScript, TypeChain, generic deploy, Hardhat
 ```bash
 git checkout feat/episode-2    # E2 code state
 ```
+
+### E3. Contract structure & basic types
+
+Value types, reference types, data locations (`storage` / `memory` / `calldata`). Full TypesDemo contract with Hardhat Tasks for interaction.
+
+```bash
+git checkout feat/episode-3    # E3 code state
+```
