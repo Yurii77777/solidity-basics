@@ -8,11 +8,12 @@ The full learning plan is in `docs/learning_plan.md`. It's built around real fre
 
 ## Current state
 
-**Completed:** E1 (setup + first contract), E2 (migration to Hardhat + TypeScript), E3 (contract structure & basic types).
+**Completed:** E1 (setup + first contract), E2 (migration to Hardhat + TypeScript), E3 (contract structure & basic types), E4 (arrays, structs, mappings).
 
 **Contracts:**
 - `contracts/firstContract.sol` — E1 learning artifact (simple string storage)
 - `contracts/TypesDemo.sol` — E3 demo of value types, reference types, and data locations
+- `contracts/DataStructures.sol` — E4 demo of arrays, structs, mappings, and nested mappings
 
 **Stack:** Hardhat v2 + TypeScript + ethers.js v6 + TypeChain. Solidity 0.8.28.
 
@@ -49,6 +50,7 @@ yarn start                   # start local blockchain (terminal 1) — alias for
 yarn compile                 # compile + TypeChain types
 yarn deploy:first            # deploy FirstContract to localhost
 yarn deploy:types            # deploy TypesDemo to localhost
+yarn deploy:data             # deploy DataStructures to localhost
 npx hardhat <task> --network localhost   # run a task (e.g., types:set-uint --value 42)
 yarn test                    # run tests
 
