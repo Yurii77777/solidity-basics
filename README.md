@@ -25,10 +25,22 @@ Full migration to native Hardhat: TypeScript, TypeChain, generic deploy, Hardhat
 git checkout feat/episode-2    # E2 code state
 ```
 
+[![E2. Migration to Hardhat + TypeScript](https://img.youtube.com/vi/1pfYQxZxOO4/0.jpg)](https://www.youtube.com/watch?v=1pfYQxZxOO4)
+
 ### E3. Contract structure & basic types
 
 Value types, reference types, data locations (`storage` / `memory` / `calldata`). Full TypesDemo contract with Hardhat Tasks for interaction.
 
 ```bash
 git checkout feat/episode-3    # E3 code state
+```
+
+[![E3. Contract structure & basic types](https://img.youtube.com/vi/84p3JSMhPrg/0.jpg)](https://www.youtube.com/watch?v=84p3JSMhPrg)
+
+### E4. Arrays, Structs & Mappings
+
+Dynamic/fixed arrays, structs, mappings, nested mappings. Full DataStructures contract with Hardhat Tasks.
+
+```bash
+git checkout feat/episode-4    # E4 code state
 ```
