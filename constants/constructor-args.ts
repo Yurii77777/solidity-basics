@@ -4,4 +4,5 @@ import { CONTRACTS, ContractName } from "./contracts";
 export const CONSTRUCTOR_ARGS: Record<ContractName, unknown[]> = {
   [CONTRACTS.FirstContract]: [],
   [CONTRACTS.TypesDemo]: [],
+  [CONTRACTS.DataStructures]: [],
 };
